@@ -13,12 +13,19 @@ const FeaturesSection = () => {
     >
       <motion.h1
         initial={{ y: "100px" }}
-        animate={{ y: 0 }}
+        whileInView={{ y: 0 }}
         transition={{ duration: 0.8 }}
         className="text-2xl md:text-3xl font-semibold text-center text-gray-700"
       >
-        Built For The Field
+        Built For <span className="text-green-600">The Field</span> 
       </motion.h1>
+      <motion.p 
+      initial={{ y: "100px" }}
+        whileInView={{ y: 0 }}
+        transition={{ duration: 0.8 }}
+      className="text-lg md:text-xl text-center font-medium text-gray-500 mt-2 md:w-[60%]">
+        FarmLook make farming easier than before, by making it simple to use for local users.
+      </motion.p>
       <div className="w-full mt-[5rem] grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* 01 */}
         <div className="flex flex-col p-5 rounded-xl bg-green-50 border-1 border-green-200">
@@ -43,7 +50,7 @@ const FeaturesSection = () => {
           </h2>
           <p className="text-sm md:text-md font-medium text-gray-500">
             No mobile data? No problem. FarmLook let you upload crop image
-            directly from your phone. Good for scan now, analyze later.
+            directly from your phone. Good for snap now, analyze later.
           </p>
         </div>
         {/* 03 */}

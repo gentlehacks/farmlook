@@ -13,7 +13,7 @@ const Header = ({
   setShowMobileNav: (showMobileNav: boolean) => void;
 }) => {
   return (
-    <div className="w-full fixed top-0 z-100 left-0 flex flex-row items-center px-6 py-3 bg-green-100">
+    <div className="w-full fixed top-0 z-100 left-0 flex flex-row items-center px-6 py-3 bg-green-600/30 backdrop-filter backdrop-blur-md">
       <ul className="flex items-center justify-between w-full">
         <div>
           <Image

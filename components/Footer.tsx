@@ -70,7 +70,7 @@ const Footer = () => {
       <div className="border-t-1 border-gray-400 py-5">
         <p className="text-gray-400 text-lg">
           &copy; {new Date().getFullYear()} FarmLook. All rights reserved. Built
-          for Nigeria.
+          for Nigeria {"\u{1F1F3}\u{1F1EC}"}.
         </p>
       </div>
     </div>

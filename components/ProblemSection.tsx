@@ -10,7 +10,7 @@ const ProblemSection = () => {
         The Silent Killer Of{" "}
         <span className="text-green-600"> Nigerian Harvests</span>
       </h1>
-      <p className="text-gray-500 mt-4 text-center text-md md:text-lg font-medium px-5 md:px-[25%]">
+      <p className="text-gray-500 mt-4 text-center text-md md:text-lg font-medium md:px-[25%]">
         Farmers are losing 40% of their annual harvests to preventable diseases
         due to late diagnosis and lack expert access.
       </p>
@@ -24,7 +24,7 @@ const ProblemSection = () => {
             40% Anual Loss
           </h2>
           <p className="text-md md:text-lg font-medium text-gray-500 text-center">
-            Of toatal harvest lost to undetected diseases
+            The toatal harvest lost to undetected diseases
           </p>
         </div>
         {/* 02 */}

@@ -33,7 +33,7 @@ const Success = () => {
           <h1 className="text-4xl font-extrabold text-white mb-2">
             {s.heading}
           </h1>
-          <p className="text-lg font-medium text-gray-400">{s.subheading}</p>
+          <p className="text-lg font-medium text-gray-300">{s.subheading}</p>
         </div>
       ))}
     </div>

@@ -19,7 +19,7 @@ const Founders = () => {
         {/* Usman */}
         <div className="w-11 h-11 bg-green-200 border-1 border-green-300 rounded-full overflow-hidden">
           <Image
-            src="/salihu.png"
+            src="/usman.JPG"
             alt="salihu adamu"
             width={200}
             height={200}
@@ -30,7 +30,7 @@ const Founders = () => {
         {/* Sparker */}
         <div className="w-11 h-11 bg-green-200 border-1 border-green-300 rounded-full overflow-hidden">
           <Image
-            src="/salihu.png"
+            src="/aliyu.png"
             alt="salihu adamu"
             width={200}
             height={200}

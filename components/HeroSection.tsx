@@ -27,7 +27,7 @@ const HeroSection = () => {
       <div className="w-full flex items-center justify-center mt-[5rem]">
         <div className="w-full max-w-[25rem] p-5 bg-green-300 rounded-xl flex flex-col items-center justify-center">
           <Image
-            src="/hero-image.PNG"
+            src="/hero-image.png"
             alt="Hero Image"
             width={300}
             height={300}

@@ -39,7 +39,7 @@ export const FaqSection = () => {
       <h1 className="text-2xl md:text-3xl font-semibold text-gray-700 text-center">
         Frequent Ask Questions
       </h1>
-      <p className="mt-1 font-medium text-gray-500 text-center px-12">Have a question about FarmLook? Your on right place.</p>
+      <p className="mt-1 font-medium text-gray-500 text-center md:px-12">Have a question about FarmLook? Your on right place.</p>
       <div className="w-full mt-[5rem] flex flex-col items-center justify-center gap-6">
         {faq.map((f) => (
           <Accordion 
