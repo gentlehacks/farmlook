@@ -1,5 +1,7 @@
 "use client"
 import Image from "next/image";
+import Link from "next/link";
+import { FiDownload } from "react-icons/fi";
 
 const HeroSection = () => {
 
@@ -19,9 +21,9 @@ const HeroSection = () => {
           their harvest with a single snap.
         </p>
         <div className="flex items-center mt-[5rem]">
-          <button className="px-6 py-3 rounded-full text-white font-medium flex items-center justify-center bg-green-600 hover:bg-green-700 hover:mt-[-3px] shadow-md shadow-green-500 transition-all duration-200">
-            Download the App
-          </button>
+          <Link href="/download" className="px-6 py-3 rounded-full text-white font-medium flex items-center justify-center bg-green-600 hover:bg-green-700 hover:mt-[-3px] shadow-md shadow-green-500 transition-all duration-200">
+            <FiDownload className="mr-2" /> Get the App
+          </Link>
         </div>
       </div>
       <div className="w-full flex items-center justify-center mt-[5rem]">

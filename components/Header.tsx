@@ -62,10 +62,10 @@ const Header = ({
             <RiMenu4Fill className="text-green-600 text-xl" />
           )}
         </button>
-        <button className="hidden md:flex px-6 py-3 items-center justify-center rounded-full font-medium bg-green-600 hover:bg-green-700 text-white transition-all duration-200">
+        <Link href="/download" className="hidden md:flex px-6 py-3 items-center justify-center rounded-full font-medium bg-green-600 hover:bg-green-700 text-white transition-all duration-200">
           <FiDownload className="mr-2" />
           Get the App
-        </button>
+        </Link>
       </ul>
     </div>
   );

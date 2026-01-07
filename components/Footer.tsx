@@ -67,7 +67,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <div className="border-t-1 border-gray-400 py-5">
+      <div className="border-t border-gray-400 py-5">
         <p className="text-gray-400 text-lg">
           &copy; {new Date().getFullYear()} FarmLook. All rights reserved. Built
           for Nigeria {"\u{1F1F3}\u{1F1EC}"}.
