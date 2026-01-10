@@ -30,10 +30,10 @@ const Download = () => {
         <div className='w-full flex flex-col items-center justify-center mt-16'>
           <p className='text-gray-400 mb-3'>Available On:</p>
           <div className='flex items-center gap-6'>
-            <button onClick={() => setShowDownloadModal(true)} className='flex items-center justify-center px-4 py-2 rounded-md border-2 border-gray-400 bg-gray-300 hover:border-green-600 hover:bg-green-200 transition-all duration-200 cursor-pointer'>
+            <button onClick={() => setShowDownloadModal(true)} className='flex items-center justify-center px-4 py-2 rounded-md border-2 border-gray-400 bg-green-300 hover:border-green-600 hover:bg-green-200 transition-all duration-200 cursor-pointer'>
               <FaGooglePlay className='mr-2 text-lg' /> <h2 className='font-medium text-md'>Android</h2>
             </button>
-            <button onClick={() => setShowDownloadModal(true)} className='flex items-center justify-center px-4 py-2 rounded-md border-2 border-gray-400 bg-gray-300 hover:border-green-600 hover:bg-green-200 transition-all duration-200 cursor-pointer'>
+            <button onClick={() => setShowDownloadModal(true)} className='flex items-center justify-center px-4 py-2 rounded-md border-2 border-gray-400 bg-green-300 hover:border-green-600 hover:bg-green-200 transition-all duration-200 cursor-pointer'>
               <FaAppStoreIos className='mr-2 text-lg' /> 
               <h2 className='font-medium text-md'>IPhone</h2>
             </button>

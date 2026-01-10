@@ -3,13 +3,13 @@ import Image from 'next/image'
 
 const Founders = () => {
   return (
-    <div className="w-full mt-[5rem] flex flex-col items-center justify-center px-6">
+    <section id="founder" className="w-full mt-[5rem] flex flex-col items-center justify-center px-6">
       <div className="flex items-center gap-2 mb-2">
         {/* Gentleman */}
-        <div className="w-11 h-11 bg-green-200 border-1 border-green-300 rounded-full overflow-hidden">
+        <div id="founder" className="w-13 h-13 bg-green-200 border-1 border-green-300 rounded-full overflow-hidden">
           <Image
             src="/salihu.png"
-            alt="salihu adamu"
+            alt="salihu adamu founder farmlook"
             width={200}
             height={200}
             priority
@@ -17,21 +17,10 @@ const Founders = () => {
           />
         </div>
         {/* Usman */}
-        <div className="w-11 h-11 bg-green-200 border-1 border-green-300 rounded-full overflow-hidden">
+        <div className="w-13 h-13 bg-green-200 border-1 border-green-300 rounded-full overflow-hidden">
           <Image
             src="/usman.JPG"
             alt="usman abdulazeez"
-            width={200}
-            height={200}
-            priority
-            className="w-full"
-          />
-        </div>
-        {/* Sparker */}
-        <div className="w-11 h-11 bg-green-200 border-1 border-green-300 rounded-full overflow-hidden">
-          <Image
-            src="/aliyu.PNG"
-            alt="aliyu suleiman"
             width={200}
             height={200}
             priority
@@ -46,7 +35,7 @@ const Founders = () => {
       <h3 className="text-center text-gray-500 font-medium text-lg mt-2">
         - Founder, FarmLook
       </h3>
-    </div>
+    </section>
   );
 }
 
