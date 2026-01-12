@@ -12,7 +12,7 @@ const HowItWork = () => {
     >
       <motion.h1
         initial={{ y: "100px" }}
-        animate={{ y: 0 }}
+        whileInView={{ y: 0 }}
         transition={{ duration: 0.8 }}
         className="text-3xl md:text-4xl font-bold text-gray-700 mb-3 text-center"
       >
@@ -20,7 +20,7 @@ const HowItWork = () => {
       </motion.h1>
       <motion.p
         initial={{ y: "100px" }}
-        animate={{ y: 0 }}
+        whileInView={{ y: 0 }}
         transition={{ duration: 0.8 }}
         className="text-lg md:text-xl font-medium text-center text-gray-500"
       >

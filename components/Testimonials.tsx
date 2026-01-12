@@ -1,5 +1,5 @@
 "use client";
-
+import {motion} from "framer-motion"
 import Testimonial from "./Testimonial";
 
 const testimonials = [
@@ -29,9 +29,13 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <div className="w-full mt-[10rem] mb-[5rem] px-6 flex flex-col items-center justify-center">
-      <h1 className="text-2xl md:text-3xl font-semibold text-gray-700">
+      <motion.h1 
+        initial={{ y: "100px" }}
+        whileInView={{ y: 0 }}
+        transition={{ duration: 0.8 }}
+      className="text-2xl md:text-3xl font-semibold text-gray-700">
         Early Farmers Feedback
-      </h1>
+      </motion.h1>
       <div className="w-full mt-[5rem] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {testimonials.map((t) => (
           <Testimonial

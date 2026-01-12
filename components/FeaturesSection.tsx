@@ -20,7 +20,7 @@ const FeaturesSection = () => {
         Built For <span className="text-green-600">The Field</span> 
       </motion.h1>
       <motion.p 
-      initial={{ y: "100px" }}
+        initial={{ y: "100px" }}
         whileInView={{ y: 0 }}
         transition={{ duration: 0.8 }}
       className="text-lg md:text-xl text-center font-medium text-gray-500 mt-2 md:w-[60%]">

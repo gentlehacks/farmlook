@@ -1,13 +1,17 @@
 "use clinet";
-
+import {motion} from "framer-motion"
 import { FaLocationDot } from "react-icons/fa6";
 
 const Target = () => {
   return (
     <div className="w-full my-[5rem] px-6 md:px-12 flex flex-col items-center justify-center">
-      <h1 className="font-semibold text-2xl md:text-3xl text-gray-700">
+      <motion.h1 
+        initial={{ y: "100px" }}
+        whileInView={{ y: 0 }}
+        transition={{ duration: 0.8 }}
+      className="font-semibold text-2xl md:text-3xl text-gray-700">
         Serving Every <span className="text-green-600">Farmer</span>
-      </h1>
+      </motion.h1>
       <div className="w-full mt-[5rem] grid grid-cols-1 md:grid-cols-2 gap-6 md:px-22 lg:px-12">
         {/* 01 */}
         <div className="w-full bg-white border-1 border-gray-200 p-5 rounded-2xl flex flex-col items-center justify-center">
@@ -36,7 +40,7 @@ const Target = () => {
             Southern Farmer
           </h2>
           <h3 className="text-md font-medium text-gray-500 mb-4">
-            Chidinma, Niger state
+            Chidinma, Oyo state
           </h3>
           <p className="text-md text-center w-full font-medium text-gray-500">
             Chidinma manages a large maize cooperation. She uses <span className="font-semibold">FarmLook</span> in 

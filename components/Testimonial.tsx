@@ -1,4 +1,5 @@
 import React from "react";
+import { FaUser } from "react-icons/fa";
 
 interface Props {
   id: number;
@@ -16,7 +17,7 @@ const Testimonial = ({ id, name, image, text, category }: Props) => {
       <p className="italic text-lg text-gray-500 w-full mb-5">{text}</p>
       <div className="flex items-center">
         <div className="w-12 h-12 bg-green-200 rounded-full overflow-hidden border border-green-300">
-          {/* image */}
+          <FaUser className="" />
         </div>
         <div className="flex flex-col ml-3">
           <h3 className="text-lg font-semibold text-gray-600">{name}</h3>
