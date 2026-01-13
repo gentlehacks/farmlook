@@ -24,7 +24,7 @@ const FeaturesSection = () => {
         whileInView={{ y: 0 }}
         transition={{ duration: 0.8 }}
       className="text-lg md:text-xl text-center font-medium text-gray-500 mt-2 md:w-[60%]">
-        FarmLook make farming easier than before, by making it simple to use for local users.
+        FarmLook makes farming easier than before, by making analyzing crops diseases faster ⚡.
       </motion.p>
       <div className="w-full mt-[5rem] grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* 01 */}
