@@ -10,7 +10,7 @@ const success = [
     subheading: "Acuracy Rate",
   },
   {
-    heading: "5s",
+    heading: "15s",
     subheading: "Diagnosis Time",
   },
 ];

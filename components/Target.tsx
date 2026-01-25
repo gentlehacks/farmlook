@@ -43,7 +43,7 @@ const Target = () => {
             Chidinma, Oyo state
           </h3>
           <p className="text-md text-center w-full font-medium text-gray-500">
-            Chidinma manages a large maize cooperation. She uses <span className="font-semibold">FarmLook</span> in 
+            Chidinma manages a large Cassava cooperation. She uses <span className="font-semibold">FarmLook</span> in 
             <span className="font-semibold"> English</span> to quickly scan large areas and generate report to share
             with their cooperative members.
           </p>

@@ -1,6 +1,6 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 const Footer = () => {
   return (
@@ -38,7 +38,9 @@ const Footer = () => {
             How it works
           </Link>
           <Link
-            href="/download"
+            href="https://expo.dev/artifacts/eas/pEFJDnhXdzCHVJtArLv3mF.apk"
+            download
+            target="_blank"
             className="font-medium text-md text-gray-400 hover:text-gray-300 mb-2"
           >
             Download
@@ -54,13 +56,13 @@ const Footer = () => {
             Support
           </Link>
           <Link
-            href="#how-it-works"
+            href="https://www.linkedin.com/company/farmlook-ai"
             className="font-medium text-md text-gray-400 hover:text-gray-300 mb-2"
           >
-            Twitter
+            LinkedIn
           </Link>
           <Link
-            href="mailto:support@farmlook.com.ng"
+            href="mailto:hello@farmlook.com.ng"
             className="font-medium text-md text-gray-400 hover:text-gray-300 mb-2"
           >
             Email Us
