@@ -33,7 +33,7 @@ const HeroSection = () => {
     <div className="mt-[10rem] md:mt-[5rem] w-full px-6 md:px-12 flex flex-col md:flex-row justify-center">
       <div className="w-full flex flex-col items-center justify-center">
         <motion.div 
-          initial={{ scale: "0.4", opacity: 0 }}
+          initial={{ scale: 0.2, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.8 }}
         className="px-2 py-1 rounded-full bg-green-100 border-1 border-green-200 mb-4">
@@ -51,7 +51,7 @@ const HeroSection = () => {
         <motion.p 
           initial={{ y: "100px", opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
         className="mt-6 text-md md:text-lg font-medium text-gray-600 text-center px-6">
           Instantly detect crop diseases fast. Join 500+ farmers protecting
           their harvest with a single snap.
