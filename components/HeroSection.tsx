@@ -6,7 +6,7 @@ import { useState } from "react";
 import { FiDownload } from "react-icons/fi";
 
 const HeroSection = () => {
-  const APK_URL = "https://expo.dev/artifacts/eas/pEFJDnhXdzCHVJtArLv3mF.apk";
+  const APK_URL = "https://expo.dev/artifacts/eas/dCTXv1KsqsyhpsEV4x93oL.apk";
   const [downloading, setDownloading] = useState(false);
 
   const handleDownload = () => {
